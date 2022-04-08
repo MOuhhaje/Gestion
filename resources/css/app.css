@@ -1,0 +1,58 @@
+
+            a{
+                text-decoration: none;
+                display: inline-flex;
+                transition-duration: 0.5s;
+            }
+            a:hover{
+                color:black;
+                transform: scale(1.1);
+            }
+
+            input:hover{
+                transform: scale(1.1);
+            }
+            input:focus-visible {
+                outline-offset: 0px;
+            }
+            :focus-visible {
+                outline:white auto 0;
+                outline-color: white;
+                outline-style: auto;
+                outline-width: 0;
+            }
+
+            #search{
+                padding: 0.375rem 0.75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                transform-origin: left;
+                width: 20%;
+                transition-duration: 0.5s;   
+            }
+            #search:focus{
+                width: 40%;
+            }
+            #search:focus-visible{
+                width: 40%;
+            }
+            #search:hover{
+                width: 40%;
+                transform: scale(1,1);
+                transform-origin: left;
+            }
+
+            button{
+                transition-duration: 0.5s;
+            }
+            button:hover{
+                transform: scale(1.1);
+            }
+            
+            tr{
+                text-align: center;
+            }
+            th{
+                background-color:#d3eaf2 !important;
+            }
+        
